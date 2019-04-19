@@ -1,0 +1,2 @@
+for x in range(21):
+   print(100-x*10, end=" ")
