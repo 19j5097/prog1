@@ -1,0 +1,2 @@
+for x in range(1000,1015):
+    print(x, end=" ")
