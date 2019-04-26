@@ -1,0 +1,10 @@
+a=1
+b=1
+c=a+b
+print(a , b, c, end=" ")
+for x in range(7):
+    a=b
+    b=c
+    c=a+b
+    print(c, end=" ")
+    
