@@ -1,0 +1,7 @@
+a=66
+b=99
+for x in range(5):
+    print(a, b)
+    c=a
+    a=b
+    b=c
