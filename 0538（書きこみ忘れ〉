@@ -1,0 +1,21 @@
+n=6
+for dan in range(n):
+    for x in range(n-dan):
+        print(" ", end=" ")
+        print("\t", end=" ")
+    for x in range(dan):
+        print("*", end=" ")
+        print("\t", end=" ")
+        print("\t", end=" ")
+    print()    
+        
+n=7
+for dan in range(n):
+    for x in range(n-dan):
+        print(" ", end=" ")
+        print("\t", end=" ")
+    for x in range(dan):
+        print("*", end=" ")
+        print("\t", end=" ")
+        print("\t", end=" ")
+    print()    
