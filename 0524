@@ -1,0 +1,10 @@
+for x in range(3):
+    print(3-x, end=" ")
+print()
+for x in range(4):
+    print(4-x, end=" ")
+print()
+for x in range(5):
+    print(5-x, end=" ")
+    
+    
