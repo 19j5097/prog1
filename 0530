@@ -1,0 +1,20 @@
+n=3
+for y in range(3):
+    for x in range(3-y):
+        print("*", end=" ")
+    print()    
+    
+    
+n=5
+for y in range(5):
+    for x in range(5-y):
+        print("*", end=" ")
+    print()    
+    
+
+n=7
+for y in range(7):
+    for x in range(7-y):
+        print("*", end=" ")
+    print()    
+    
