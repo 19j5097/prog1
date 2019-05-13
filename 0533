@@ -1,6 +1,0 @@
-n=6
-r=4
-bunshi=1
-for x in range(6,5,-1):
-    bunshi=x*(x-(r-3))*(x-(r-2))*(x-(r-1))
-print(bunshi)    
