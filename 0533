@@ -1,0 +1,8 @@
+n=6
+r=4
+bunshi=1
+for y in range(6,5,-1):
+    bunshi=y*(y-(r-3))*(y-(r-2))*(y-(r-1))
+print(bunshi)    
+
+
