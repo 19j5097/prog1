@@ -1,0 +1,4 @@
+for x in range(1,100):
+    print(x, end=" ")
+    if(x==50):
+        break
