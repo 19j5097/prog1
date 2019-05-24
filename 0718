@@ -1,0 +1,12 @@
+def conb(n,r):
+    bunbo=1
+    for x in range(n):
+        bunbo=r*(r-1)*(r-(n-r))*(r-(n-r+1))
+    bunshi=1
+    for x in range(n):
+        bunshi=n*(n-1)*(n-(r-1))*(n-(n-r))
+    c=(bunshi/bunbo)
+    return c 
+    
+c=conb(6,4)
+print(c)
