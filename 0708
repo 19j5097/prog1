@@ -1,0 +1,15 @@
+def hoge():
+    n=5
+    for y in range(n):
+        for x in range(y+1):
+            print("*", end=" ")
+        print()
+def moga():
+    n=5
+    for y in range(n):
+        for x in range(n-y):
+            print("*", end=" ")
+        print()
+        
+hoge()
+moga()
