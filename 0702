@@ -1,0 +1,7 @@
+def hoge():
+    n=5
+    for y in range(n):
+        for x in range(y+1):
+            print("*", end=" ")
+        print()    
+hoge()
