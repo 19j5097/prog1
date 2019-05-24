@@ -1,0 +1,14 @@
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*", end=" ")
+        print()
+def moga(n):
+    for y in range(n):
+        for x in range(n-y):
+            print("*", end=" ")
+        print()    
+
+for x in range(1,10):
+    hoge(x)
+    moga(x)
