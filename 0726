@@ -1,0 +1,11 @@
+def heron(a,b,c):
+    l=a+b+c
+    p=1/2
+    s=(p*(p-a)*(p-b)*(p-c))**1/2
+    return s 
+    
+a=9
+b=10
+c=17
+s=heron(a,b,c)
+print(s)
