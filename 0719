@@ -1,0 +1,18 @@
+def conb(n,r):
+    bunbo=1
+    for x in range(1,r+1):
+        bunbo=bunbo*x
+    bunshi=1
+    for y in range(n,n-r,-1):
+        bunshi=bunshi*y
+    c=bunshi/bunbo
+    return c
+    
+def pascal(m):
+    for x in range(m+1):
+        for y in range(x+1):
+            c=conb(x,y)
+            print(c,end=" ")
+        print()
+
+pascal(4)
