@@ -1,0 +1,10 @@
+def emoji(eye):
+    print("(", end=" ")
+    print("T", end=" ")
+    print("_", end=" ")
+    print("T", end=" ")
+    print(")", end=" ")
+    
+for x in range(5):
+    emoji("T")
+    
