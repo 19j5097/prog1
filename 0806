@@ -1,0 +1,5 @@
+a= [1,2,3,4]
+print(a[0], end=" ")
+print(a[1], end=" ")
+print(a[2], end=" ")
+print(a[3], end=" ")
