@@ -1,0 +1,6 @@
+def ave_4(a,b,c,d):
+    r=(a+b+c+d)/2
+    return r
+    
+r=ave_4(1,2,3,4)
+print("average is", r)
