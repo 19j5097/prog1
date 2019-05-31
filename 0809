@@ -1,0 +1,6 @@
+a=[1,2,3,4]
+s=0
+for x in range(len(a)):
+    s=s+a[x]
+r=s/a[x]
+print("average is",r)
