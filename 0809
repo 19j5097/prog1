@@ -1,6 +1,0 @@
-a=[1,2,3,4]
-s=0
-for x in range(len(a)):
-    s=s+4
-r=s/4
-print("average is",r)
