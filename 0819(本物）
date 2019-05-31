@@ -1,0 +1,24 @@
+def bmi_1(h,w):
+    b=(10000*w)/(h*h)
+    return b
+def bmi_n(h,w):
+    b=[0 for x in range( len(h) )]
+    for x in range(len(h)):
+        b[x]=bmi_1(h[x],w[x])
+    return b
+    
+h=[0 for x in range(10)]
+for x in range(len(h)):
+    h[x]=(16*x)%11 + 160 
+for x in range(len(h)):
+    print(h[x], end=" ")
+print()
+w=[0 for x in range(10)]
+for x in range(len(w)):
+    w[x]=(6*x)%11 + 60 
+for x in range(len(w)):
+    print(w[x], end=" ")
+print()
+b=bmi_n(h,w)
+for x in range(len(b)):
+    print(b[x],end=" ")
