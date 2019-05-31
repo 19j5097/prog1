@@ -1,0 +1,5 @@
+v=[0 for x in range(4)]
+print(v[0], end=" ")
+print(v[1], end=" ")
+print(v[2], end=" ")
+print(v[3], end=" ")
