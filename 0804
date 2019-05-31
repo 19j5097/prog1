@@ -1,0 +1,6 @@
+def ave_2(a,b):
+    r=(a+b)/2
+    return r
+    
+r=ave_2(66,88)
+print("average is", r)
