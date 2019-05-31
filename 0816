@@ -1,0 +1,12 @@
+h=[0 for x in range(10)]
+for x in range(len(h)):
+    h[x]=(16*x)%11 + 160 
+for x in range(len(h)):
+    print(h[x], end=" ")
+print()
+w=[0 for x in range(10)]
+for x in range(len(w)):
+    w[x]=(6*x)%11 + 60 
+for x in range(len(w)):
+    print(w[x], end=" ")
+    
