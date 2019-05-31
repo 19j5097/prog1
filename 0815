@@ -1,0 +1,5 @@
+v=[0 for x in range(10)]
+for x in range(len(v)):
+    x=(len(v))
+for x in range(len(v)):
+    print(x, end=" ")
