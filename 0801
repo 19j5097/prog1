@@ -1,0 +1,4 @@
+a=66
+b=88
+r=(a+b)/2
+print("average is", r)
