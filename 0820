@@ -1,0 +1,6 @@
+n=10 
+score=[ 0 for x in range(10)]
+for x in range(len(score)):                                 
+    score[x]=(89*(x+1))%101
+for x in range(len(score)):
+    print(score[x],end=" ")
