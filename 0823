@@ -1,0 +1,6 @@
+a=[1,2,3]
+b=[a,a,a]
+print(b[0], end=" ")
+print(b[1], end=" ")
+print(b[2], end=" ")
+    
