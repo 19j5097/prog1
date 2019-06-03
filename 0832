@@ -1,0 +1,6 @@
+m=5
+c=[[0 for y in range(5)]for x in range(5)]
+for n in range(m):
+    for r in range(m):
+        print((m-5)*(m-5), end=" ")
+    print()
