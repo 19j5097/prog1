@@ -1,0 +1,6 @@
+m=5
+c=[[0 for y in range(m)]for x in range(m)]
+for n in range(m):
+    for r in range(n+1):
+        print(c[r][n], end=" ")
+    print()
